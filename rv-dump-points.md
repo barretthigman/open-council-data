@@ -1,6 +1,6 @@
 ## RV accessible waste disposal locations
 
-Locations of RV accessible waste disposal locations for both public and paid use.
+Locations of RV accessible waste disposal locations for both public and non-public use.
 
 #### General recommendations
 
