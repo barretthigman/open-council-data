@@ -1,4 +1,5 @@
 ## RV accessible waste disposal locations
+**([Comments welcome!](https://github.com/okfnau/open-council-data/issues))**
 
 Locations of RV accessible waste disposal locations for both public and non-public use.
 
@@ -12,6 +13,5 @@ Locations of RV accessible waste disposal locations for both public and non-publ
 
 Field | Description
 ------|------------
-`public`| Is the dump point available to the public? `yes` or `no`. `no` indicates that the dump point is only for paying
-<br/>guest of a caravan park
-`free`| Is the disposal of waste free? `yes`, `no`.
+`public`| Is the dump point available to the public? `yes` or `no`. `no` indicates that the dump point is only for paying guest of a caravan park
+`free`| Is the disposal of waste free? `yes` or `no`.
