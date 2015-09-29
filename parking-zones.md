@@ -16,7 +16,11 @@ Spatial type|Polygon. Each polygon represents one area within which restrictions
 
 
 ####Required fields
-(none)
+Field | Description
+------|------------
+`mode`|Semicolon-delimited list of one or more of: `free`,`fee`,`loading zone`,`no standing`,`no parking`,`clearway`, `disabled`
+`capacity`|The number of vehicles that can be accommodated simultaneously.
+
 ####Recommended fields
 Field | Description
 ------|------------
@@ -28,7 +32,6 @@ Field | Description
 ------|------------
 `start`, `end`|Time at which this parking restriction commences/ends, in 24 hour time. Times outside this range are assumed to be free, unless additional restrictions given.<br/>*For example: 17:30*
 `days`|Semicolon-delimited list of days on which this restriction applies.  If times are different on different days, create a separate set of restrictions for the other days as explained below.<br/>*For example: `Friday;Saturday;Sunday`.*
-`mode`|Semicolon-delimited list of one or more of: `free`,`fee`,`loading zone`,`no standing`,`no parking`,`clearway`, `disabled`
 `hourlyfee`|Cost in dollars per hour for the first hour of parking. If paying for one hour is not possible (eg, maximum stay is 30 minutes at $2.20), still convert it to an hourly rate (eg, `4.40`).
 `onlyfor`|If parking is restricted to a certain type of vehicle, provide a semicolon-delimited list of: `motorcycle`,`bus`,etc.
 `notfor`|If parking is prohibited for certain types of vehicle, provide a semicolon-delimited list of: `caravan`, etc.
@@ -43,4 +46,3 @@ Field | Description
 `feemode`|`ticket`,`meter`,`android`,`ios`,`web`
 `payment`|Options for physical payments. One or more of: `card`,`coin`,`note`. Do *not* include payment types for smartphone/web payments, which are assumed to support credit card.
 `info_url`|The URL of a webpage with more information about parking in this area.
-`capacity`:The number of vehicles that can be accommodated simultaneously.
